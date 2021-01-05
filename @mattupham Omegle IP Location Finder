@@ -4,6 +4,9 @@
 // Subscribe on YouTube, and follow on TikTok (@mattupham)! Socials found below:
 // https://mattupham.com/links
 
+// @ me on Discord with any questions!
+https://link.mattupham.com/discord
+
 const apiKey = "your-api-key-here";
 
 window.oRTCPeerConnection =
