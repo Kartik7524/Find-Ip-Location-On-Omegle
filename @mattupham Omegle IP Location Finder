@@ -1,3 +1,9 @@
+// Please replace "your-api-key-here" with an 
+// API key from https://ipgeolocation.io/
+
+// Subscribe on YouTube, and follow on TikTok (@mattupham)! Socials found below:
+// https://mattupham.com/links
+
 const apiKey = "your-api-key-here";
 
 window.oRTCPeerConnection =
