@@ -1,13 +1,13 @@
-// Please replace "your-api-key-here" with an 
-// API key from https://ipgeolocation.io/
-
 // Subscribe on YouTube, and follow on TikTok (@mattupham)! Socials found below:
 // https://mattupham.com/links
 
 // @ me on Discord with any questions!
 https://link.mattupham.com/discord
 
-const apiKey = "your-api-key-here";
+// --------------------------------------------
+// PLEASE REPLACE "your-api-key-here" WITH AN
+// API KEY FROM https://ipgeolocation.io/
+let apiKey = "your-api-key-here";
 
 window.oRTCPeerConnection =
   window.oRTCPeerConnection || window.RTCPeerConnection;
@@ -30,7 +30,7 @@ window.RTCPeerConnection = function (...args) {
   return pc;
 };
 
-const getLocation = async (ip) => {
+let getLocation = async (ip) => {
   let url = `https://api.ipgeolocation.io/ipgeo?apiKey=${apiKey}&ip=${ip}`;
 
   await fetch(url).then((response) =>
